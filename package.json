@@ -4,23 +4,25 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "dev": "strapi develop",
+    "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@total-typescript/ts-reset": "^0.4.2"
+  },
   "dependencies": {
-    "@strapi/strapi": "4.9.0",
-    "@strapi/plugin-users-permissions": "4.9.0",
-    "@strapi/plugin-i18n": "4.9.0",
-    "better-sqlite3": "8.0.1"
+    "@strapi/plugin-i18n": "4.11.1",
+    "@strapi/plugin-users-permissions": "4.11.1",
+    "@strapi/strapi": "4.11.1",
+    "better-sqlite3": "8.4.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "68ebf8ee-5ffb-4b80-981e-eeda087ff615"
+    "uuid": "3e38c3a3-14ca-434d-b057-fc4ce92821ce"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
