@@ -10,19 +10,21 @@
     "strapi": "strapi"
   },
   "devDependencies": {
-    "@total-typescript/ts-reset": "^0.4.2"
+    "@strapi/typescript-utils": "4.11.1",
+    "@total-typescript/ts-reset": "^0.4.2",
+    "@types/node": "20.3.1"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.11.1",
     "@strapi/plugin-users-permissions": "4.11.1",
     "@strapi/strapi": "4.11.1",
-    "better-sqlite3": "8.4.0"
+    "better-sqlite3": "8.0.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "3e38c3a3-14ca-434d-b057-fc4ce92821ce"
+    "uuid": "c31db29c-27da-4e15-b2e6-8f26f02954fc"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
